@@ -10,7 +10,7 @@ connectDB();
 app.use(express.json({extended : false}))
 
 app.get('/',(req,res) => {
-     res.send('response send successfully');
+     res.send('Task Management app');
 })
 
 app.use('/api/addTask', require('./routes/addTasks'));
