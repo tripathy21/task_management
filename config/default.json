@@ -1,0 +1,3 @@
+{
+    "MongoUri" : "mongodb+srv://test:test123@cluster0.joyvh.mongodb.net/taskdb?retryWrites=true&w=majority"
+}
